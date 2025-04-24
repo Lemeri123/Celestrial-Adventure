@@ -5,6 +5,10 @@ function Hero() {
   const starRef = useRef(null);
 
   useEffect(() => {
+    const starElement = starRef.current;
+
+    if (!starElement) return;
+
     const randomizeStar = (star) => {
       const startX =
         Math.random() > 0.5
@@ -31,41 +35,33 @@ function Hero() {
     };
 
     const animateStar = () => {
-      if (starRef.current) {
-        starRef.current.style.animation = 'none';
-        void starRef.current.offsetWidth;
-        starRef.current.style.animation = 'shoot 3s linear forwards';
+      starElement.style.animation = 'none';
+      void starElement.offsetWidth;
+      starElement.style.animation = 'shoot 3s linear forwards';
 
-        randomizeStar(starRef.current);
+      randomizeStar(starElement);
 
-        const handleAnimationEnd = () => {
-          const delay = 1000 + Math.random() * 4000;
-          setTimeout(() => {
-            animateStar();
-          }, delay);
-        };
+      const handleAnimationEnd = () => {
+        const delay = 1000 + Math.random() * 4000;
+        setTimeout(() => {
+          animateStar();
+        }, delay);
+      };
 
-        starRef.current.addEventListener('animationend', handleAnimationEnd, {
-          once: true,
-        });
+      starElement.addEventListener('animationend', handleAnimationEnd, {
+        once: true,
+      });
 
-        return () => {
-          if (starRef.current) {
-            starRef.current.removeEventListener(
-              'animationend',
-              handleAnimationEnd
-            );
-          }
-        };
-      }
+      return () => {
+        starElement.removeEventListener('animationend', handleAnimationEnd);
+      };
     };
 
-    animateStar();
+    const cleanup = animateStar();
 
     return () => {
-      if (starRef.current) {
-        starRef.current.style.animation = 'none';
-      }
+      if (cleanup) cleanup();
+      starElement.style.animation = 'none';
     };
   }, []);
 

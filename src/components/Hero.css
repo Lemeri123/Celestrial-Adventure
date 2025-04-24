@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background: url('/home/lemeri/Documents/Projects/Portfolio/celestrial-adventure/src/assets/bg.jpg')
+  background: url('/home/lemeri/Documents/Projects/Portfolio/celestrial-adventure/src/assets/bg2.jpg')
     center/cover no-repeat;
   overflow: hidden;
   animation: float 15s ease-in-out infinite;
