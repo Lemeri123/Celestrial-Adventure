@@ -33,7 +33,7 @@ function Hero() {
     const animateStar = () => {
       if (starRef.current) {
         starRef.current.style.animation = 'none';
-        void starRef.current.offsetWidth; 
+        void starRef.current.offsetWidth;
         starRef.current.style.animation = 'shoot 3s linear forwards';
 
         randomizeStar(starRef.current);
