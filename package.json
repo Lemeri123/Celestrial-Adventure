@@ -19,7 +19,9 @@
     "eject": "react-scripts eject",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "lint": "eslint src --ext .js,.jsx",
+    "format:check": "prettier --check ."
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
     "prettier": "^3.5.3"
   }
 }
