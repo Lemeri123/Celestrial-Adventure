@@ -70,13 +70,6 @@ function Hero() {
       <div className="shooting-stars">
         <div className="shooting-star" ref={starRef} />
       </div>
-      <div className="navbar">
-        <span className="logo">LEMERI</span>
-        <div className="menu-icon">
-          <div></div>
-          <div></div>
-        </div>
-      </div>
 
       <div className="planet" />
 
