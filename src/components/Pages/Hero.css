@@ -65,7 +65,7 @@
 
 .subtitle {
   font-size: 1rem;
-  letter-spacing: 3.8rem; 
+  letter-spacing: 3.8rem;
   text-align: center;
   text-transform: uppercase;
   margin-left: 3.9rem;
@@ -75,7 +75,7 @@
 .subtitle.spaced {
   display: flex;
   justify-content: center;
-  gap: 1.5rem; 
+  gap: 1.5rem;
   margin-left: 0;
   letter-spacing: normal;
 }

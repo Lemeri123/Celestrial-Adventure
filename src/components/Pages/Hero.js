@@ -1,5 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import './Hero.css';
+import {
+  FaArrowLeft,
+  FaArrowRight,
+  FaArrowUp,
+  FaArrowDown,
+} from 'react-icons/fa';
 
 function Hero() {
   const starRef = useRef(null);
@@ -84,8 +90,12 @@ function Hero() {
       </div>
 
       <div className="navigation">
-        <button className="arrow left">&lt;</button>
-        <button className="arrow right">&gt;</button>
+        <button className="arrow left">
+          <FaArrowLeft />
+        </button>
+        <button className="arrow right">
+          <FaArrowRight />
+        </button>
       </div>
 
       <div className="footer">
