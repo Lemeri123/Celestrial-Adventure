@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+🌌 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Celestial Adventure is an immersive cosmic experience website that transports users through stunning interstellar visuals and typography. Featuring animated shooting stars, cosmic text effects, and a minimalist space-themed design, this React application creates a captivating journey through the cosmos.
+✨ Key Features
 
-## Available Scripts
+    Animated Shooting Stars: Procedurally generated shooting star animations
 
-In the project directory, you can run:
+    Cosmic Typography: Glowing text effects with precise letter spacing
 
-### `npm start`
+    Responsive Design: Adapts to various screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Interactive Elements: Hover effects on buttons and navigation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Minimalist Aesthetic: Clean space-themed UI with subtle animations
 
-### `npm test`
+🚀 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+  Clone the repository:
+    
+    git clone https://github.com/your-username/celestial-adventure.git
+    cd celestial-adventure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Install dependencies:
+    
+    npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  Start the development server:
+    
+    npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  Open your browser to:
+    
+    http://localhost:3000
 
-### `npm run eject`
+🛠️ Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    React.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    CSS3 (with animations and custom properties)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Vite (or Create-React-App)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🎨 Design Specifications
 
-## Learn More
+    Color Scheme: Deep space blacks with cosmic red/orange accents
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Animations:
 
-### Code Splitting
+        Shooting stars with randomized trajectories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        Text glow effects
 
-### Analyzing the Bundle Size
+        Subtle background movements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Preview
+Heavily still under development
+![Screenshot from 2025-04-25 04-03-48](https://github.com/user-attachments/assets/c2d3f6a1-60e7-4a3e-a0aa-03fe36af22dd)
