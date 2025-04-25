@@ -90,12 +90,8 @@ function Hero() {
       </div>
 
       <div className="navigation">
-        <button className="arrow left">
-          <FaArrowLeft />
-        </button>
-        <button className="arrow right">
-          <FaArrowRight />
-        </button>
+        <button className="arrow left">&lt;</button>
+        <button className="arrow right">&gt;</button>
       </div>
 
       <div className="footer">
