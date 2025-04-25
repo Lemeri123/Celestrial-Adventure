@@ -13,14 +13,15 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write .",
-    "check-format": "prettier --check .",
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
-  },
+ "scripts": {
+"start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+  "dev": "npm start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "format": "prettier --write .",
+  "check-format": "prettier --check ."
+},
   "eslintConfig": {
     "extends": [
       "react-app",
