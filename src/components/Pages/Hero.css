@@ -2,20 +2,11 @@
   position: relative;
   height: 100vh;
   background: url('/home/lemeri/Documents/Projects/Portfolio/celestrial-adventure/src/assets/bg2.jpg')
-    center/cover no-repeat;
+    center center / cover no-repeat;
+  background-attachment: fixed; /* optional: makes it parallax-like */
   overflow: hidden;
-  animation: float 15s ease-in-out infinite;
 }
 
-@keyframes float {
-  0%,
-  100% {
-    background-position: 10% 10%;
-  }
-  50% {
-    background-position: 0% 0%;
-  }
-}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -64,12 +55,19 @@
 }
 
 .subtitle {
-  font-size: 1rem;
-  letter-spacing: 3.8rem;
+  font-size: 2rem;
+  letter-spacing: 1rem;
   text-align: center;
   text-transform: uppercase;
-  margin-left: 3.9rem;
-  white-space: nowrap;
+  margin-left: 0;
+  white-space: normal;
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
 }
 
 .subtitle.spaced {
@@ -197,5 +195,64 @@
   100% {
     transform: translateX(var(--end-x)) translateY(var(--end-y)) scale(1.2);
     opacity: 0;
+  }
+}
+/* Fix for small screens */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .title {
+    font-size: 3rem; /* Was 6rem */
+    letter-spacing: 0.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+
+  .get-started {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .arrow {
+    font-size: 1.5rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+}
+
+/* For super small screens (like phones) */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .desc {
+    font-size: 0.7rem;
+  }
+
+  .get-started {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.5rem;
   }
 }
