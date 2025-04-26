@@ -3,8 +3,8 @@ import './Hero.css';
 import {
   FaArrowLeft,
   FaArrowRight,
-  FaArrowUp,
-  FaArrowDown,
+  // FaArrowUp,
+  // FaArrowDown,
 } from 'react-icons/fa';
 
 function Hero() {
