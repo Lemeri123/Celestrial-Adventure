@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c63e020-42eb-4800-a90e-4c8cfa204718/deploy-status)](https://app.netlify.com/sites/celestrial-adventure/deploys)
 
-**Live Site** 👉 [https://celestrial-adventure.netlify.app](https://celestrial-adventure.netlify.app)
+**Live Site** 👉 [https://celestial-adventure-lc.netlify.app/](https://celestial-adventure-lc.netlify.app/)
 
 
 🌌 Overview
