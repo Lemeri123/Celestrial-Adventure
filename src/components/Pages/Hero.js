@@ -1,11 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Hero.css';
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  // FaArrowUp,
-  // FaArrowDown,
-} from 'react-icons/fa';
+import { Grid, Row, Column } from '@carbon/react';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 function Hero() {
   const starRef = useRef(null);
@@ -79,29 +75,36 @@ function Hero() {
 
       <div className="planet" />
 
-      <div className="content">
-        <h1 className="title">CELESTIAL</h1>
-        <h2 className="subtitle">ADVENTURE</h2>
-        <p className="desc">
-          A Revolution that will transport users to new worlds of wonder and
-          possibility
-        </p>
-        <button className="get-started">GET STARTED</button>
-      </div>
-
-      <div className="navigation">
+      {/* Navigation Arrows */}
+      {/* <div className="navigation-arrows"> 
         <button className="arrow left">
           <FaArrowLeft />
         </button>
         <button className="arrow right">
           <FaArrowRight />
         </button>
-      </div>
+      </div> */}
 
-      <div className="footer">
-        <div className="socials"></div>
-        <div className="page-number"></div>
-      </div>
+      <Grid fullWidth>
+        <Row>
+          <Column lg={8} md={6} sm={4} className="content">
+            <h1 className="title">CELESTIAL</h1>
+            <h2 className="subtitle">ADVENTURE</h2>
+            <p className="desc">
+              A Revolution that will transport users to new worlds of wonder and
+              possibility
+            </p>
+            <button className="get-started">GET STARTED</button>
+          </Column>
+        </Row>
+
+        <Row className="footer">
+          <Column lg={8} md={6} sm={4}>
+            <div className="socials"></div>
+            <div className="page-number"></div>
+          </Column>
+        </Row>
+      </Grid>
     </div>
   );
 }
