@@ -1,0 +1,13 @@
+{
+  "projectName": "celestrial-adventure",
+  "projectOwner": "Lemeri123",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": ["README.md"],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}

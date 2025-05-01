@@ -1,4 +1,7 @@
 # 🌌 Celestial Adventure
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c63e020-42eb-4800-a90e-4c8cfa204718/deploy-status)](https://app.netlify.com/sites/celestrial-adventure/deploys)
 
@@ -65,3 +68,16 @@ To run this project locally, follow these steps:
 Preview
 Heavily still under development
 ![Screenshot from 2025-04-25 04-03-48](https://github.com/user-attachments/assets/c2d3f6a1-60e7-4a3e-a0aa-03fe36af22dd)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
