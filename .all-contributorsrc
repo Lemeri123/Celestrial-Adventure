@@ -7,7 +7,16 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "gitmoji",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "IamLRBA",
+      "name": "Jerry Laruba Festus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181826812?v=4",
+      "profile": "https://github.com/IamLRBA",
+      "contributions": ["code"]
+    }
+  ],
   "contributorsPerLine": 7,
   "linkToUsage": false
 }
+

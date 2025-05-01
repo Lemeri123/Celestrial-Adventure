@@ -1,6 +1,6 @@
 # 🌌 Celestial Adventure
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c63e020-42eb-4800-a90e-4c8cfa204718/deploy-status)](https://app.netlify.com/sites/celestrial-adventure/deploys)
@@ -76,8 +76,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IamLRBA"><img src="https://avatars.githubusercontent.com/u/181826812?v=4?s=100" width="100px;" alt="Jerry Laruba Festus"/><br /><sub><b>Jerry Laruba Festus</b></sub></a><br /><a href="https://github.com/Lemeri123/celestrial-adventure/commits?author=IamLRBA" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
