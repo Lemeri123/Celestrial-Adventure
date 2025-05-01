@@ -65,3 +65,11 @@ To run this project locally, follow these steps:
 Preview
 Heavily still under development
 ![Screenshot from 2025-04-25 04-03-48](https://github.com/user-attachments/assets/c2d3f6a1-60e7-4a3e-a0aa-03fe36af22dd)
+
+## ✨ Contributors
+
+Thanks goes to these wonderful people ✨
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
