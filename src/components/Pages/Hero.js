@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Hero.css';
 import { Grid, Row, Column } from '@carbon/react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+// import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 function Hero() {
   const starRef = useRef(null);

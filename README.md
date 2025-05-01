@@ -1,3 +1,10 @@
+# 🌌 Celestial Adventure
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c63e020-42eb-4800-a90e-4c8cfa204718/deploy-status)](https://app.netlify.com/sites/celestrial-adventure/deploys)
+
+**Live Site** 👉 [https://celestial-adventure-lc.netlify.app/](https://celestial-adventure-lc.netlify.app/)
+
+
 🌌 Overview
 
 Celestial Adventure is an immersive cosmic experience website that transports users through stunning interstellar visuals and typography. Featuring animated shooting stars, cosmic text effects, and a minimalist space-themed design, this React application creates a captivating journey through the cosmos.
