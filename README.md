@@ -79,7 +79,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IamLRBA"><img src="https://avatars.githubusercontent.com/u/181826812?v=4?s=100" width="100px;" alt="Jerry Laruba Festus"/><br /><sub><b>Jerry Laruba Festus</b></sub></a><br /><a href="https://github.com/Lemeri123/celestrial-adventure/commits?author=IamLRBA" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IamLRBA"><img src="https://avatars.githubusercontent.com/u/181826812?v=4?s=100" width="100px;" alt="Jerry Laruba Festus"/><br /><sub><b>Jerry Laruba Festus</b></sub></a><br /><a href="https://github.com/Lemeri123/celestrial-adventure/commits?author=IamLRBA" title="Code">💻</a> <a href="#design-IamLRBA" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
